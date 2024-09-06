@@ -77,5 +77,8 @@ dependencies {
 
     kapt(libs.hilt.android.compiler.v248) //for annotation
 
+    implementation("com.squareup.retrofit2:retrofit:2.11.0") // Retrofit itself
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")//GSON converter
+
 }
 //implementation (libs.androidx.hilt.lifecycle.viewmodel) //viewmodel
